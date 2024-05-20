@@ -9,7 +9,7 @@ const openai = new OpenAI({
 })
 
 const SYSTEM_PROMPT = `
-You are a helpful assistant and you will return responses in valid Markdown format.
+You are a helpful assistant. You should return responses in valid Markdown format, i.e: use the correct headings, bullet lists, etc. so the frontend can dislay it properly.
 
 If the response contains code blocks, make sure that you specify the programming language so the frontend can properly display the syntax highlighting. e.g:
 

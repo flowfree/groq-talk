@@ -25,8 +25,8 @@ export function Avatar({
     }
   } else {
     return (
-      <span className="w-9 h-9 flex items-center justify-center bg-amber-400 text-xl text-black font-bold">
-        B
+      <span className="w-9 h-9 flex items-center justify-center bg-violet-200 text-xl text-violet-800 font-bold">
+        G
       </span>
     )
   }

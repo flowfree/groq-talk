@@ -84,7 +84,7 @@ export default function Page() {
   return (
     <>
       <div className="grow">
-        <div className="flex flex-row items-baseline my-3 max-w-sm px-2 sm:px-0 sm:max-w-xl md:max-w-2xl lg:max-w-3xl mx-auto">
+        <div className="mt-12 md:mt-2 flex flex-row items-baseline my-3 max-w-sm px-2 sm:px-0 sm:max-w-xl md:max-w-2xl lg:max-w-3xl mx-auto">
           <h2 className="grow text-2xl font-bold tracking-tight text-black">
             GroqTalk
           </h2>
@@ -97,7 +97,7 @@ export default function Page() {
 
       <div className="sticky w-content bottom-0">
         <div className="max-w-3xl mx-auto">
-          <div className="mb-8 max-w-sm px-2 sm:px-0 sm:max-w-xl md:max-w-2xl lg:max-w-3xl mx-auto">
+          <div className="mb-8 max-w-md px-4 sm:px-0 sm:max-w-xl md:max-w-2xl lg:max-w-3xl mx-auto">
             {messages.length === 0 && (
               <ul className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {samplePrompts.map((prompt, index) => (
@@ -120,7 +120,7 @@ export default function Page() {
             )}
           </div>
           <div className="w-full bg-white">
-            <div className="max-w-sm px-2 sm:px-0 sm:max-w-xl md:max-w-2xl lg:max-w-3xl mx-auto pb-4">
+            <div className="max-w-md px-4 sm:px-0 sm:max-w-xl md:max-w-2xl lg:max-w-3xl mx-auto pb-4">
               <QuestionForm onSubmit={handleSubmit} />
             </div>
           </div>

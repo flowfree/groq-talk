@@ -56,7 +56,7 @@ export function MessageListItem({
 
   return (
     <li className={`group py-2 ` + (role === 'assistant' ? 'border-y border-y-gray-200/75' : '')}>
-      <div className="max-w-sm px-2 text-sm sm:px-0 sm:text-base sm:max-w-xl md:max-w-2xl lg:max-w-3xl mx-auto flex gap-4 ">
+      <div className="max-w-md px-4 text-sm sm:px-0 sm:text-base sm:max-w-xl md:max-w-2xl lg:max-w-3xl mx-auto flex gap-4 ">
         <div className="shrink-0 first-letter:lg:min-w-fit pt-2">
           <Avatar 
             role={role} 

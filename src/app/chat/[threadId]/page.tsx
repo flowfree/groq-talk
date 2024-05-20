@@ -206,7 +206,7 @@ export default function Page({
         <div className="w-full h-12 bg-gradient-to-t from-white to-transparent">
         </div>
         <div className="w-full bg-white">
-          <div className="max-w-sm px-2 sm:px-0 sm:max-w-xl md:max-w-2xl lg:max-w-3xl mx-auto pb-4">
+          <div className="max-w-md px-4 sm:px-0 sm:max-w-xl md:max-w-2xl lg:max-w-3xl mx-auto pb-4">
             <QuestionForm onSubmit={handleUserMessage} />
           </div>
         </div>
