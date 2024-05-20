@@ -83,10 +83,16 @@ export default function Page() {
 
   return (
     <>
-      <div className="grow pt-8 pb-32 md:pt-0">
-        <h2 className="mt-8 text-center text-3xl font-bold tracking-tight text-gray-300">
-          GroqTalk
-        </h2>
+      <div className="grow">
+        <div className="flex flex-row items-baseline my-3 max-w-sm px-2 sm:px-0 sm:max-w-xl md:max-w-2xl lg:max-w-3xl mx-auto">
+          <h2 className="grow text-2xl font-bold tracking-tight text-black">
+            GroqTalk
+          </h2>
+          <p className="text-sm">
+            <strong>Model:</strong> 
+            <span className="ml-2 text-gray-500">llama3-70b-8192</span>
+          </p>
+        </div>
       </div>
 
       <div className="sticky w-content bottom-0">
