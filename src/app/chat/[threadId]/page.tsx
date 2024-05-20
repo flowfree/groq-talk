@@ -34,10 +34,6 @@ export default function Page({
     redirect('/')
   }
 
-  useEffect(() => {
-    console.log(messages)
-  }, [messages])
-
   // Fetch all saved messages on page load
   useEffect(() => {
     async function fetchInitialMessages() {
