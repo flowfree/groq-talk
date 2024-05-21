@@ -73,7 +73,7 @@ export function CodeBlock({
 
   return (
     <div className={`bg-gray-700 rounded-md ${className}`}>
-      <div className="flex gap-2 items-center h-8 px-2 text-white text-sm">
+      <div className="flex gap-2 items-center h-8 px-2 text-white">
         <p className="grow">
           {languages[language] || language}
         </p>
@@ -94,8 +94,8 @@ export function CodeBlock({
       <SyntaxHighlighter 
         language={language} 
         style={monokai}
-        PreTag='div'
-        className='text-sm rounded-bl-md rounded-br-md'
+        PreTag="div"
+        className="rounded-bl-md rounded-br-md text-[15px] leading-5"
       >
         {String(children).replace(/\n$/, "")}
       </SyntaxHighlighter>

@@ -10,10 +10,10 @@ export function Markdown({
     <ReactMarkdown
       components={{
         h1: ({ node, ...props }) => (
-          <h1 className="my-3 font-bold text-2xl tracking-tight" {...props} />
+          <h1 className="my-3 font-bold text-xl tracking-tight" {...props} />
         ),
         h2: ({ node, ...props }) => (
-          <h2 className="my-4 font-bold text-xl tracking-tight" {...props} />
+          <h2 className="my-4 font-bold text-lg tracking-tight" {...props} />
         ),
         h3: ({ node, ...props }) => (
           <h3 className="my-4 font-bold text-base tracking-tight" {...props} />
