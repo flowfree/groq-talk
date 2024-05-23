@@ -84,13 +84,10 @@ export default function Page() {
   return (
     <>
       <div className="grow">
-        <div className="mt-12 md:mt-2 flex flex-row items-baseline my-3 max-w-sm px-2 sm:px-0 sm:max-w-xl md:max-w-2xl lg:max-w-3xl mx-auto">
-          <h2 className="grow text-2xl font-bold tracking-tight text-black">
-            GroqTalk
-          </h2>
+        <div className="mt-12 md:mt-3 max-w-sm px-2 sm:px-0 sm:max-w-xl md:max-w-2xl lg:max-w-3xl mx-auto">
           <p className="text-sm">
             <strong>Model:</strong> 
-            <span className="ml-2 text-gray-500">llama3-70b-8192</span>
+            <span className="ml-2">llama3-70b-8192</span>
           </p>
         </div>
       </div>

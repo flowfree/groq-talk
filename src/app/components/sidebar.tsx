@@ -86,7 +86,11 @@ export function Sidebar({
     <>
       <div className="sticky w-[250px] top-0 left-0 h-screen p-2 flex flex-col dark bg-violet-950 text-white z-10">
         <div className="grow">
-          <div className="flex flex-row gap-2 items-center">
+          <h2 className="text-xl font-bold tracking-tight text-violet-200">
+            GroqTalk
+          </h2>
+
+          <div className="mt-4 flex flex-row gap-2 items-center">
             <Link href="/chat" className="grow py-2 px-4 rounded-md flex text-sm border border-stone-600 hover:border-stone-500 text-gray-200">
               <div className="w-full flex gap-2 items-center">
                 <PlusIcon className="w-4 h-4" />
@@ -101,7 +105,7 @@ export function Sidebar({
             </button>
           </div>
 
-          <ul className="mt-6 flex flex-col overflow-hidden">
+          <ul className="mt-2 flex flex-col overflow-hidden">
             {threads.map(({ id, title }) => (
               <ThreadListItem 
                 key={id} 
