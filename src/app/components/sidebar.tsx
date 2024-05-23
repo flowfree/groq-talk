@@ -67,7 +67,7 @@ export function Sidebar({
     return (
       <>
         <button
-          className="hidden sm:block fixed top-5 left-0 z-10 p-2 bg-violet-200 rounded-tr-md rounded-br-md border border-violet-300 border-l-0 text-black"
+          className="hidden sm:block fixed top-5 left-0 z-10 p-2 bg-gray-200 rounded-tr-md rounded-br-md border border-violet-300 border-l-0 text-black"
           onClick={() => setShowSidebar(!showSidebar)}
         >
           <ChevronDoubleRightIcon className="w-4 h-4" />
@@ -86,7 +86,7 @@ export function Sidebar({
     <>
       <div className="sticky w-[250px] top-0 left-0 h-screen p-2 flex flex-col dark bg-violet-950 text-white z-10">
         <div className="grow">
-          <div className="mt-4 flex flex-row gap-2 items-center">
+          <div className="mt-2 flex flex-row gap-2 items-center">
             <Link href="/chat" className="grow py-2 px-4 rounded-md flex text-sm border border-violet-800 hover:border-violet-700 text-gray-200 outline-none">
               <div className="w-full flex flex-row gap-2 items-center">
                 <PlusIcon className="w-4 h-4" />
