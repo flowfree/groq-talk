@@ -18,7 +18,7 @@ export function Avatar({
       return <img src={image} className="w-9 h-auto bg-white" onError={() => setImageError(true)} alt="" />
     } else {
       return (
-        <span className="w-9 h-9 bg-indigo-700 text-xl text-white flex items-center justify-center">
+        <span className="w-9 h-9 bg-violet-200 text-xl font-bold text-violet-800 flex items-center justify-center">
           {name ? name.charAt(0).toUpperCase() : 'U'}
         </span>
       )
