@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "dev:server": "next dev -p 8002",
+    "dev:migrate": "dotenv -e .env.local prisma migrate dev",
     "build": "prisma generate && prisma migrate deploy && next build",
     "start": "next start",
     "lint": "next lint"

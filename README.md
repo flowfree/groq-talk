@@ -31,13 +31,11 @@ After cloning this repo, follow these steps:
 
 1.  Run the database migrations:
 
-        npx prisma migrate dev
-
-    The command will create the tables in your PostgreSQL database. Note that the command being used is `npx` instead of `npm`.
+        npm run dev:migrate
 
 1.  Run the development server:
 
-        npm run dev
+        npm run dev:server
 
 You can open the app on `http://localhost:8002` using your browser.
 
