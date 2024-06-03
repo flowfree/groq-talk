@@ -5,6 +5,7 @@
   "scripts": {
     "dev:server": "next dev -p 8002",
     "dev:migrate": "dotenv -e .env.local prisma migrate dev",
+    "dev": "npm run dev:server",
     "build": "prisma generate && prisma migrate deploy && next build",
     "start": "next start",
     "lint": "next lint"
